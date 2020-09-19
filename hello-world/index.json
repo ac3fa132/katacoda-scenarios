@@ -8,7 +8,7 @@
       {
         "title": "Run a trivial command",
         "text": "step1.md",
-        "code": "clear.sh"
+        "code": "uname.sh"
       }
     ],
     "intro": {
