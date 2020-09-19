@@ -13,7 +13,7 @@
     ],
     "intro": {
       "text": "intro.md",
-      "credits": "Geoff Sisson"
+      "credits": ""
     },
     "finish": {
       "text": "finish.md"
