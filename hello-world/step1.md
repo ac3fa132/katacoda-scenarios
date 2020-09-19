@@ -1,9 +1,7 @@
-Step 1:
+Here's the command:
 
-## Test
+`echo 'hello, world'` {{execute}}
 
-This is a _test_ scenario that runs a **trivial** command:
-
-`echo 'hello, world'`{{execute}}
+Go ahead. Run it. I dare you.
 
 Pretty awesome, huh?
