@@ -1,12 +1,12 @@
 {
-  "title": "Test",
-  "description": "First Scenario",
+  "title": "hello, world",
+  "description": "\"hello, world\" Scenario",
   "difficulty": "n00b",
   "time": "1 minute",
   "details": {
     "steps": [
       {
-        "title": "Step 1 - Run a trivial command",
+        "title": "Run a trivial command",
         "text": "step1.md",
         "code": "clear.sh"
       }
@@ -25,6 +25,7 @@
     }
   },
   "environment": {
+    "uimessage1": "",
     "uilayout": "terminal"
   },
   "backend": {
