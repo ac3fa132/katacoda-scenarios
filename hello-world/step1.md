@@ -1,7 +1,9 @@
-First step.
+Step 1:
 
-## Task
+## Test
 
-This is an _example_ of creating a scenario and running a **command**
+This is a _test_ scenario that runs a **trivial** command:
 
-`echo 'Hello World'`{{execute}}
+`echo 'hello, world'`{{execute}}
+
+Pretty awesome, huh?

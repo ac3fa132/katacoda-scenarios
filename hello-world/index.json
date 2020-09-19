@@ -1,24 +1,30 @@
 {
-  "title": "Hello World Scenario",
+  "title": "Test",
   "description": "First Scenario",
-  "difficulty": "beginner",
+  "difficulty": "n00b",
   "time": "1 minute",
   "details": {
-    "steps": [{
-      "title": "Step 1 - Run Command",
-      "text": "step1.md"
-    }],
+    "steps": [
+      {
+        "title": "Step 1 - Run a trivial command",
+        "text": "step1.md",
+        "code": "clear.sh"
+      }
+    ],
     "intro": {
       "text": "intro.md",
       "credits": ""
     },
     "finish": {
       "text": "finish.md"
-    }
+    },
+    "assets": {
+      "host01": [
+        { "file": ".hushlogin" }
+      ]
   },
   "environment": {
-    "uilayout": "terminal",
-    "uimessage1": "\u001b[32mTerminal.\u001b[m\r\n"
+    "uilayout": "terminal"
   },
   "backend": {
     "imageid": "bash"
