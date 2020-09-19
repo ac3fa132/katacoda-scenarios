@@ -6,14 +6,12 @@
   "details": {
     "steps": [
       {
-        "title": "Run a trivial command",
         "text": "step1.md",
         "code": "uname.sh"
       }
     ],
     "intro": {
-      "text": "intro.md",
-      "credits": ""
+      "text": "intro.md"
     },
     "finish": {
       "text": "finish.md"
@@ -25,10 +23,10 @@
     }
   },
   "environment": {
+    "hideintro": true,
     "uilayout": "terminal",
-    "uimessage1": " "
   },
   "backend": {
-    "imageid": "bash"
+    "imageid": "ubuntu"
   }
 }
