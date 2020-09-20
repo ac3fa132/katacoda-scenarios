@@ -2,7 +2,7 @@
 
 clear
 
-while [[ ! -e /var/log/.background_init_done ]]; do
+while [[ ! -e /var/run/.background_init_done ]]; do
   sleep 1
 done
 

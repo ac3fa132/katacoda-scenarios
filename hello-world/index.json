@@ -3,8 +3,8 @@
   "description": "Yet another \"hello, world\" scenario",
   "details": {
     "intro": {
-      "courseData": "background-init.sh",
-      "code": "foreground-init.sh",
+      "courseData": "init-background.sh",
+      "code": "init-foreground.sh",
       "text": "intro.md"
     },
     "steps": [
