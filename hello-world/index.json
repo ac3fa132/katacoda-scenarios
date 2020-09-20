@@ -7,7 +7,7 @@
     "steps": [
       {
         "text": "step1.md",
-        "code": "uname.sh"
+        "code": "clear.sh"
       }
     ],
     "intro": {
@@ -17,13 +17,15 @@
       "text": "finish.md"
     },
     "assets": {
+      "client": [
+        { "file": ".hushlogin", "target": "/root/" }
+      ],
       "host01": [
-        { "file": ".hushlogin" }
+        { "file": ".hushlogin", "target": "/root/" }
       ]
     }
   },
   "environment": {
-    "hideintro": true,
     "uilayout": "terminal"
   },
   "backend": {
