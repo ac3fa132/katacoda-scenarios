@@ -6,8 +6,10 @@ exec 1>/var/log/init-background.log 2>&1
 set -x
 
 cat >> "${HOME}"/.bashrc << EOF
+uname -a
 PS1="# "
 EOF
+
 source "${HOME}"/.bashrc
 
 touch /var/run/.background_init_done

@@ -1,6 +1,7 @@
 {
   "title": "\"hello, world\"",
   "description": "Yet another \"hello, world\" scenario",
+  "nointro": true,
   "details": {
     "intro": {
       "courseData": "init-background.sh",
