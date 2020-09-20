@@ -1,18 +1,17 @@
 {
   "title": "\"hello, world\"",
   "description": "Yet another \"hello, world\" scenario",
-  "difficulty": "n00b",
-  "time": "1 minute",
   "details": {
-    "steps": [
-      {
-        "text": "step1.md",
-        "code": "clear.sh"
-      }
-    ],
     "intro": {
+      "courseData": "background-init.sh",
+      "code": "foreground-init.sh",
       "text": "intro.md"
     },
+    "steps": [
+      {
+        "text": "step1.md"
+      }
+    ],
     "finish": {
       "text": "finish.md"
     },
