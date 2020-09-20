@@ -17,9 +17,6 @@
       "text": "finish.md"
     },
     "assets": {
-      "client": [
-        { "file": ".hushlogin", "target": "/root/" }
-      ],
       "host01": [
         { "file": ".hushlogin", "target": "/root/" }
       ]
@@ -29,6 +26,6 @@
     "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "ubuntu"
+    "imageid": "ubuntu1804"
   }
 }
