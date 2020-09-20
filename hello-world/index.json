@@ -7,8 +7,8 @@
   "hideintro": true,
   "details": {
     "intro": {
-      "courseData": "init-background.sh",
-      "code": "init-foreground.sh",
+      "background": "init-background.sh",
+      "foreground": "init-foreground.sh",
       "text": "intro.md"
     },
     "steps": [
