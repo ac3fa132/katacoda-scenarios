@@ -26,6 +26,6 @@
     "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "centos7"
+    "imageid": "ubuntu18"
   }
 }
