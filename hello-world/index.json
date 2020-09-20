@@ -2,6 +2,9 @@
   "noindex": true,
   "title": "\"hello, world\"",
   "description": "Yet another \"hello, world\" scenario",
+  "difficulty": "",
+  "time": "",
+  "hideintro": true,
   "details": {
     "intro": {
       "courseData": "init-background.sh",

@@ -6,8 +6,12 @@ exec 1>/var/log/init-background.log 2>&1
 set -x
 
 cat >> "${HOME}"/.bashrc << EOF
-uname -a
+
+# --- added by init-background.sh ---
+
 PS1="# "
+
+uname -a
 EOF
 
 source "${HOME}"/.bashrc
